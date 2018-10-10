@@ -10,6 +10,7 @@ public class Mouse {
 	{
 		Graphics2D g2 = (Graphics2D) g;
 		g2.setColor(Color.gray);
+		g2.setColor(Color.magenta);
 		g2.fillOval(mouseX, mouseY, BODY_LENGTH, BODY_HEIGHT);
 		int x = mouseX + BODY_LENGTH;
 		int y = mouseY + BODY_HEIGHT/2;
